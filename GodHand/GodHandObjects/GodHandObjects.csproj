@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{31AD9A65-A42E-4ADC-A8E1-FD173C42A53A}</ProjectGuid>
+    <ProjectGuid>{161F3994-7193-451D-B1F8-CFDF4C9D4853}</ProjectGuid>
     <WaveEngineProject>{196BC63C-5C01-4C02-9F24-E720CA3AD406}</WaveEngineProject>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GodHandProject</RootNamespace>
-    <AssemblyName>GodHandProject</AssemblyName>
+    <RootNamespace>GodHandObjects</RootNamespace>
+    <AssemblyName>GodHandObjects</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -47,8 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Game.cs" />
-    <Compile Include="MyScene.cs" />
+    <Compile Include="Containers.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Race.cs" />
+    <Compile Include="Role.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
